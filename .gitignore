@@ -41,3 +41,8 @@ yarn-error.log*
 next-env.d.ts
 
 *storybook.log
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
