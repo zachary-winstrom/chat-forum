@@ -9,7 +9,9 @@ jest.mock("../../store/forumStore", () => ({
 
 describe("PostList Component", () => {
   it("renders no posts", () => {
-    (useForumStore as any).mockReturnValue({
+    (
+      useForumStore as jest.MockedFunction<typeof useForumStore>
+    ).mockReturnValue({
       posts: [],
       fetchPosts: jest.fn(),
     });
