@@ -1,3 +1,4 @@
+import "@/styles/globals.css";
 import React, { useState, useEffect } from "react";
 import Head from "next/head"; // Import Head
 import PostList from "../components/PostList";
